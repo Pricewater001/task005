@@ -1,0 +1,207 @@
+{
+	"info": {
+		"_postman_id": "610430ae-4e08-4509-a665-6d52c111b67b",
+		"name": "task05",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25503829"
+	},
+	"item": [
+		{
+			"name": "POST Model",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"text\" : \"this is Text\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://task005.onrender.com/model",
+					"protocol": "https",
+					"host": [
+						"task005",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"model"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET All Model",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://task005.onrender.com/model",
+					"protocol": "https",
+					"host": [
+						"task005",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"model"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ONE Model",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://task005.onrender.com/model/1",
+					"protocol": "https",
+					"host": [
+						"task005",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"model",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE model",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://task005.onrender.com/model/1",
+					"protocol": "https",
+					"host": [
+						"task005",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"model",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE MODEL",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"text\" : \"this is Text\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://task005.onrender.com/model/1",
+					"protocol": "https",
+					"host": [
+						"task005",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"model",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"admin@admin.com\",\r\n    \"password\":\"1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://task005.onrender.com/auth/signup",
+					"protocol": "https",
+					"host": [
+						"task005",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST LOGIN",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"admin@admin.com\",\r\n    \"password\":\"1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://task005.onrender.com/auth/login",
+					"protocol": "https",
+					"host": [
+						"task005",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET LOGES",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

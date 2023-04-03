@@ -11,7 +11,7 @@ const getLogges = async (req, res) => {
     const skip = (page -1 ) * size;
 
 
-  const logges = await Loggers.find().where({ userId: req.id }).limit(limit).skip(skip)
+  const logges = await Loggers.find().where({ userId: "9905d2b0-4722-4986-817b-f152f98f40f9" }).limit(limit).skip(skip)
   res.status(200).send(logges);
 };
 module.exports = {
