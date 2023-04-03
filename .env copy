@@ -1,0 +1,14 @@
+PORT=3000
+JWTKEY=hassan
+
+# This was inserted by `prisma init`:
+# Environment variables declared in this file are automatically made available to Prisma.
+# See the documentation for more detail: https://pris.ly/d/prisma-schema#accessing-environment-variables-from-the-schema
+
+# Prisma supports the native connection string format for PostgreSQL, MySQL, SQLite, SQL Server, MongoDB and CockroachDB.
+# See the documentation for all the connection string options: https://pris.ly/d/connection-strings
+
+DATABASE_URL="postgresql://postgres:zatar123!@interns.postgres.database.azure.com:5432/hasan"
+
+DATABASE_MONGO_URI=mongodb://hasan:Agent_04@ac-gkzwouk-shard-00-00.mlptpme.mongodb.net:27017,ac-gkzwouk-shard-00-01.mlptpme.mongodb.net:27017,ac-gkzwouk-shard-00-02.mlptpme.mongodb.net:27017/loggess?ssl=true&replicaSet=atlas-4ns1q9-shard-0&authSource=admin&retryWrites=true&w=majority
+# DATABASE_MONGO_URI=mongodb+srv://hasan:Agent_04@cluster0.mlptpme.mongodb.net/loggess?retryWrites=true&w=majority

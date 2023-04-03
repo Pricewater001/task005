@@ -14,7 +14,6 @@ const validateJWT = async (req, res, next) => {
     );
     req.user = email;
     req.id = id;
-    console.log(email,id)
     next();
   } catch (error) {
     return res.status(401).json({
